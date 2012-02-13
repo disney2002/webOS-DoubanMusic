@@ -19,3 +19,6 @@
 
 ###1.0.0 `2011-12-05`
 * 豆瓣音乐 v1.0.0 Release
+
+##联系开发者
+[@GavinQuan](http://weibo.com/gavinquan)
