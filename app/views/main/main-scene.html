@@ -1,0 +1,43 @@
+<div id="body">
+    <div style="height:80px; background:#4F6E8D;border:0px solid red;padding-top:10px">
+        <div style="float:left;width:80px;border:0px solid red;">
+            <div id="play-button" class="left play" x-mojo-element="Button" x-mojo-tap-highlight="immediate">
+            </div>
+            <div id="pause-button" style="display:none" class="left pause" x-mojo-element="Button" x-mojo-tap-highlight="immediate">
+            </div>
+        </div>
+        <div style="float:left;text-align:center;width:153px;height:60px;color:#fff;">
+            <div style="line-height:20px;font-size:18px;font-weight:bold">
+                <span id="channel"></span>
+            </div>
+			<div style="line-height:20px;font-weight:600;font-size:14px;">
+                <span id="currentTime">00:00</span>
+                / <span id="totalTime">00:00</span>
+            </div>
+            <div style="line-height:20px;font-size:14px;font-weight:600;">
+                <span id="songTitle"></span>
+            </div>
+        </div>
+        <div style="float:right;width:80px;border:0px solid red;">
+            <div id="next-button" class="right next" x-mojo-element="Button" x-mojo-tap-highlight="immediate">
+            </div>
+        </div>
+        <div style="clear:both">
+        </div>
+        <audio id="audio-media" controls="false" x-palm-media-audio-class="media">
+    </div>
+    <div style="background:#47637E;height:45px;line-height:45px;">
+	<div>
+		<div style="float:right" id="reset-button" class="reset button" x-mojo-element="Button" x-mojo-tap-highlight="immediate">
+        </div>
+		<div style="float:right" id="clear-button" class="reset clear" x-mojo-element="Button" x-mojo-tap-highlight="immediate">
+        </div>
+		<div id="songCount" style="display:none; float:right; padding-right:20px; font-size:12px; color:#fff"></div>
+		<div id="loading" style="display:none; float:right; padding-right:20px; font-size:12px; color:#fff">数据加载中...</div>
+		<div style="clear:both"></div>
+	</div>
+        
+    </div>
+    <div id="songList" x-mojo-element="List" style="background:#fff;" >
+    </div>
+</div>

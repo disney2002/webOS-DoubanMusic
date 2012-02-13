@@ -1,0 +1,19 @@
+{
+	"id": "com.quanlei.doubanmusic",
+	"version": "1.1.0",
+	"vendor": "QuanLei.com",
+	"vendorurl": "http://www.quanlei.com",
+	"type": "web",
+	"main": "index.html",
+	"title": "豆瓣音乐",
+	"icon": "icon.png",
+	"smallicon": "icon32.png",
+	"copyright": "&copy; Copyright 2010 QuanLei.com.",
+	"support": {
+		"url": "http://www.quanlei.com", 
+		"email": {
+				"address": "coolbee2002@163.com",
+				"subject": "豆瓣音乐"
+		}
+	}
+}
