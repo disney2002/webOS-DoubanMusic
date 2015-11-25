@@ -13,7 +13,11 @@
 		"url": "http://www.quanlei.com", 
 		"email": {
 				"address": "coolbee2002@163.com",
+<<<<<<< HEAD
 				"subject": "豆瓣音乐1"
+=======
+				"subject": "豆瓣音乐2"
+>>>>>>> 66614f2be64cc4d6cb71297ec61cb826750ee259
 		}
 	}
 }
